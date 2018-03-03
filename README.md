@@ -1,3 +1,6 @@
+Introduction to Javascript
+==========================
+
 ## Course Overview
 
 This class is intended as an introduction to programming using the JavaScript programming language.

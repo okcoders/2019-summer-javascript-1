@@ -26,18 +26,18 @@ For now, that means we'll run our javascript programs using node.
 Type `node` at the console to bring up a REPL, or *read-evaluate-print-loop*
 Or, open the developer tools part of chrome and go to the console section:
 
-        $ node
+				$ node
 	>
 
 Notice that the prompt changes to a `>` which means that node is waiting for
 input from you. Node *evaluates* whatever you've typed when you press return,
 and then it print out the result:
 
-        $ node
-        > 5
-        5
-        > 5 + 5
-        10
+				$ node
+				> 5
+				5
+				> 5 + 5
+				10
 	>
 
 When node is finished evaluating your input, it returns you to the `>` prompt
@@ -52,8 +52,8 @@ programs do nothing else, they will work with data.
 Data is not an abstract topic. *Numbers* for example are data. Try typing a
 number at the node prompt:
 
-        > 12
-        12
+				> 12
+				12
 	>
 
 Node evaluates the number and prints the result, then it returns you to the
@@ -65,8 +65,8 @@ case twelve.
 double quotes, like `"hello world"` or `'hello world'`. Try typing a string at
 the node prompt (for javascript, we will use single quotes):
 
-        > "hello world"
-        'hello world'
+				> "hello world"
+				'hello world'
 	>
 
 Node evaluates the string and prints the result, then it returns you to the
@@ -81,8 +81,8 @@ Boolean data is always either `true` or `false`. True and false have special
 meaning in programming languages and are used in many circumstances. Try typing
 `true` into node:
 
-        > true
-        true
+				> true
+				true
 	>
 
 Node understands `true` and `false` because they are *keywords* in the language.
@@ -99,42 +99,42 @@ operations.
 
 For example, you can add two numbers together:
 
-        > 12 + 12
-        24
+				> 12 + 12
+				24
 	>
 
 Node evaluates the entire mathematical operation as a single *expression*.
 Expression is also a technical term in programming. What is important to know
 for now is that an expression always has a result. We can see that `12+12` has a
-  result because node prints it out before returning to the prompt.
+	result because node prints it out before returning to the prompt.
 
 Javascript supports all of the standard mathematical operations such as
 addition, subtraction, multiplication and division using the following symbols:
 
 <table>
-  <tr>
-    <td> + </td>
-    <td> Addition </td>
-  </tr>
-  <tr>
-    <td> - </td>
-    <td> Subtraction </td>
-  </tr>
-  <tr>
-    <td> * </td>
-    <td> Multiplication </td>
-  </tr>
-  <tr>
-    <td> / </td>
-    <td> Division </td>
-  </tr>
+	<tr>
+		<td> + </td>
+		<td> Addition </td>
+	</tr>
+	<tr>
+		<td> - </td>
+		<td> Subtraction </td>
+	</tr>
+	<tr>
+		<td> * </td>
+		<td> Multiplication </td>
+	</tr>
+	<tr>
+		<td> / </td>
+		<td> Division </td>
+	</tr>
 </table>
 
 Note that programming languages often use the asterisk `*` for multiplication
 and `/` for division. Try multiplying two numbers in node:
 
-        > 12 * 12
-        144
+				> 12 * 12
+				144
 	>
 
 Once again, node evaluates the mathematical operation and prints out the result.
@@ -142,8 +142,8 @@ Once again, node evaluates the mathematical operation and prints out the result.
 Combine mathematical operations into more complex expressions by putting more
 than one operation on a line:
 
-        > 5 + 5 + 5
-        15
+				> 5 + 5 + 5
+				15
 	>
 
 Combine and group mathematical operations with parenthesis, `( ... )`.
@@ -151,10 +151,10 @@ Parenthesis are used more generally to group any expression in a programming
 language, not just mathematical ones, but it's easy to see what they do using
 math as an example:
 
-        > 1 + 2 * 3
-        7
-        > (1 + 2) * 3
-        9
+				> 1 + 2 * 3
+				7
+				> (1 + 2) * 3
+				9
 	>
 
 If you remember from basic math, parenthesis change the order of operations.
@@ -168,8 +168,8 @@ sense, parenthesis will control the order of operations in any expression.
 Parenthesis are always evaluated from the inside out. Start with the most deeply
 *nested* parenthesis and work your way out:
 
-        > (2 * (5 + 10) ) / (2 + 1)
-        10
+				> (2 * (5 + 10) ) / (2 + 1)
+				10
 	>
 
 ## String and Boolean Operations
@@ -178,71 +178,71 @@ Javascript supports a few basic operations for string and boolean data types as
 well. For example, *concatenate* two strings in javascript with the same `+`
 operation:
 
-        > "hello" + "world"
-        'helloworld'
+				> "hello" + "world"
+				'helloworld'
 	>
 
 Think of this as string addition. Notice that there is no space added to the
 strings to separate them. You must add spacing yourself.
 
 <table>
-  <tr>
-    <td> + </td>
-    <td> String concatenation </td>
-  </tr>
+	<tr>
+		<td> + </td>
+		<td> String concatenation </td>
+	</tr>
 </table>
 
 Always be aware of what type of data you are working with. If you put two
 numbers in quotes, they are strings and no longer numbers. When you add them
 together, you will be adding strings:
 
-        > "12" + "24"
-        '1224'
+				> "12" + "24"
+				'1224'
 	>
 
 The two basic boolean operations are the *and* `&&` and *or* `||` operations:
 
 <table>
-  <tr>
-    <td> && </td>
-    <td> and </td>
-    <td> result is true only if both operands are true </td>
-  </tr>
-  <tr>
-    <td> || </td>
-    <td> or </td>
-    <td> result is true if either operand is true </td>
-  </tr>
+	<tr>
+		<td> && </td>
+		<td> and </td>
+		<td> result is true only if both operands are true </td>
+	</tr>
+	<tr>
+		<td> || </td>
+		<td> or </td>
+		<td> result is true if either operand is true </td>
+	</tr>
 </table>
 
 Boolean operations compare two pieces of data, called *operands*. An operand is
 just the stuff that an operation works on. Compare two booleans in node:
 
-        > true && true
-        true
-        > true && false
-        false
+				> true && true
+				true
+				> true && false
+				false
 
 The result of a boolean operation is another boolean. The result depends on the
 operands and the operation. A truth table is commonly used to describe the
 possible results:
 
 <table>
-  <tr>
-    <td>&&</td>
-    <th>true</th>
-    <th>false</th>
-  </tr>
-  <tr>
-    <th>true</th>
-    <td>true</td>
-    <td>false</td>
-  </tr>
-  <tr>
-    <th>false</th>
-    <td>false</td>
-    <td>false</td>
-  </tr>
+	<tr>
+		<td>&&</td>
+		<th>true</th>
+		<th>false</th>
+	</tr>
+	<tr>
+		<th>true</th>
+		<td>true</td>
+		<td>false</td>
+	</tr>
+	<tr>
+		<th>false</th>
+		<td>false</td>
+		<td>false</td>
+	</tr>
 </table>
 
 This table says that the *and* operation `&&` only results in true when both
@@ -250,21 +250,21 @@ operands are true. The following table shows that the *or* operation `||`
 results in true when either operand is true:
 
 <table>
-  <tr>
-    <td>||</td>
-    <th>true</th>
-    <th>false</th>
-  </tr>
-  <tr>
-    <th>true</th>
-    <td>true</td>
-    <td>true</td>
-  </tr>
-  <tr>
-    <th>false</th>
-    <td>true</td>
-    <td>false</td>
-  </tr>
+	<tr>
+		<td>||</td>
+		<th>true</th>
+		<th>false</th>
+	</tr>
+	<tr>
+		<th>true</th>
+		<td>true</td>
+		<td>true</td>
+	</tr>
+	<tr>
+		<th>false</th>
+		<td>true</td>
+		<td>false</td>
+	</tr>
 </table>
 
 Try various combinations of true and false with the two operations to confirm
@@ -274,22 +274,22 @@ Another important boolean operation is the *not*, written as an exclamation mark
 `!`. Not reverse the value of the boolean so that `true` becomes `false` and
 vice versa:
 
-        > !true
-        false
+				> !true
+				false
 
 The truth table is straightforward:
 
 <table>
-  <tr>
-    <td>!</td>
-    <th>true</th>
-    <th>false</th>
-  </tr>
-  <tr>
-    <th></th>
-    <td>false</td>
-    <td>true</td>
-  </tr>
+	<tr>
+		<td>!</td>
+		<th>true</th>
+		<th>false</th>
+	</tr>
+	<tr>
+		<th></th>
+		<td>false</td>
+		<td>true</td>
+	</tr>
 </table>
 
 ## Comparsions
@@ -300,8 +300,8 @@ inequality. The result of a comparison is always either `true` or `false`.
 
 Check if two numbers are equal with a double equal sign `==`:
 
-        > 5 == 5
-        true
+				> 5 == 5
+				true
 	>
 
 Is five equal to five? Yes it is, true. Notice that **two equal signs** must be
@@ -309,54 +309,54 @@ used for comparison. A single equal sign is used for assignment, which we'll
 learn about in the next chapter. If you try to compare with a single equal sign,
 javascript produces an error:
 
-        > 5 = 5
-        ReferenceError: Invalid left-hand side in assignment ...
+				> 5 = 5
+				ReferenceError: Invalid left-hand side in assignment ...
 	>
 
 There are other types of comparisons. Here are the common ones:
 
 <table>
-  <tr>
-    <td> == </td>
-    <td> equals </td>
-    <td> true if two pieces of data are equal </td>
-  </tr>
-  <tr>
-    <td> != </td>
-    <td> not equals </td>
-    <td> true if two pieces of data are not equal </td>
-  </tr>
-  <tr>
-    <td> &gt; </td>
-    <td> greater than </td>
-    <td> true if the first item is greater than the second </td>
-  </tr>
-  <tr>
-    <td> &lt; </td>
-    <td> less than </td>
-    <td> true if the first item is less than the second </td>
-  </tr>
-  <tr>
-    <td> &gt;= </td>
-    <td> greater than or equal </td>
-    <td> true if the first item is greater than or equal to the second </td>
-  </tr>
-  <tr>
-    <td> &lt;= </td>
-    <td> less than </td>
-    <td> true if the first item is less than or equal to the second </td>
-  </tr>
+	<tr>
+		<td> == </td>
+		<td> equals </td>
+		<td> true if two pieces of data are equal </td>
+	</tr>
+	<tr>
+		<td> != </td>
+		<td> not equals </td>
+		<td> true if two pieces of data are not equal </td>
+	</tr>
+	<tr>
+		<td> &gt; </td>
+		<td> greater than </td>
+		<td> true if the first item is greater than the second </td>
+	</tr>
+	<tr>
+		<td> &lt; </td>
+		<td> less than </td>
+		<td> true if the first item is less than the second </td>
+	</tr>
+	<tr>
+		<td> &gt;= </td>
+		<td> greater than or equal </td>
+		<td> true if the first item is greater than or equal to the second </td>
+	</tr>
+	<tr>
+		<td> &lt;= </td>
+		<td> less than </td>
+		<td> true if the first item is less than or equal to the second </td>
+	</tr>
 </table>
 
 Try typing a few into node:
 
-        > 5 < 6
-        true
-        > 5 < 3
-        false
+				> 5 < 6
+				true
+				> 5 < 3
+				false
 	>
-        > 5 - 4 < 3
-        true
+				> 5 - 4 < 3
+				true
 	>
 
 Notice in the first example that javascript performs the subtraction before
@@ -366,21 +366,21 @@ and mathematical operations always take place before comparisons. They have
 
 Strings may also be compared in javascript:
 
-        > "zach" == "zach"
-        true
-        > "zach" == "david"
-        false
-        > "zach" == "ZACH"
-        false
+				> "zach" == "zach"
+				true
+				> "zach" == "david"
+				false
+				> "zach" == "ZACH"
+				false
 	>
 
 Notice that string comparisons are *case sensitive*.
 
 How do you think other comparison operations work with strings?
 
-        > "zach" < "b"
-        false
-        > "zach" < "zachary"
-        true
+				> "zach" < "b"
+				false
+				> "zach" < "zachary"
+				true
 
 --
