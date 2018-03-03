@@ -7,7 +7,8 @@ You must be running a recent version of Windows, at least Windows Vista or highe
 
 Install the following software by downloading it at these urls:
 
-[Sublime Text](https://www.sublimetext.com/).
+* [Sublime Text](https://www.sublimetext.com/).
+* [Visual Studio Code](https://code.visualstudio.com/)
 
 This is the free text editor we will be using in class.
 
@@ -44,14 +45,3 @@ If you get an error when trying to add your keys to the ssh-agent, type the foll
 
 	eval `ssh-agent -s`
 
-## Set Up Heroku
-
-(You may skip this step for now)
-
-Sign up for a free account at Heroku: [https://www.heroku.com/](https://www.heroku.com/)
-
-Install the Heroku Command Line Interface: Follow the instructions at [https://devcenter.heroku.com/articles/heroku-command](https://devcenter.heroku.com/articles/heroku-command). Note you will need to install the Heroku Toolbelt.
-
-Follow the instructions at Heroku to register your SSH keys. **You do not need to create a new public/private keypair.** [Register SSH Keys with Heroku](https://devcenter.heroku.com/articles/keys)
-
-Nice work! You just set up your development environment and are already using the command line! This is serious stuff!

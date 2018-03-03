@@ -18,9 +18,7 @@ Additionally you will need a text editor.  If you want a built in one you can
 try __kate__ or if you do not already have a preferred editor, then check out 
 
 [Sublime Text](http://www.sublimetext.com/)
-
-I will be using kate/vim in class, but sublime is a good alternative if you are newer
-to coding.
+[Visual Studio Code](https://code.visualstudio.com/)
 
 Finally, you will need to install Node.js, git, and mongodb.  They can all be
 install with your systems standard software installer via:

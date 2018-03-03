@@ -11,10 +11,12 @@ Also ensure that you have installed the latest updates. Again click on the *Appl
 
 Install the following software by downloading it at these urls:
 
-If you do not already have a preferred editor, then check out [Sublime Text](http://www.sublimetext.com/)
+If you do not already have a preferred editor, then check out one of the following.
 
-I will be using vim in class, but sublime is a good alternative if you are newer
-to coding.
+* [Sublime Text](http://www.sublimetext.com/)
+* [Visual Studio Code](https://code.visualstudio.com/)
+
+For Dev tools and in-browswer JavaScript testing we will be using Google Chrome.
 
 [Google Chrome](https://www.google.com/intl/en-US/chrome/browser/)
 
@@ -61,22 +63,9 @@ Install Node.js: At the Terminal, type the following command and press return:
 
 	brew install node
 
-Install Express: At the Terminal, type the following command and press return:
-
-	npm install -g express-generator
-
 ## Set up your SSH keys
 
 SSH Keys are used to establish a secure connection to GitHub and Heroku.
 
 Follow the instructions at GitHub to create and register new SSH keys: [Generating SSH Keys for GitHub](https://help.github.com/articles/generating-ssh-keys).
 
-## Set Up Heroku
-
-Sign up for a free account at Heroku: [https://www.heroku.com/](https://www.heroku.com/)
-
-Install the Heroku Command Line Interface: Follow the instructions at [https://devcenter.heroku.com/articles/heroku-command](https://devcenter.heroku.com/articles/heroku-command). Note you will need to install the Heroku Toolbelt.
-
-Follow the instructions at Heroku to register your SSH keys. **You do not need to create a new public/private keypair.** [Register SSH Keys with Heroku](https://devcenter.heroku.com/articles/keys)
-
-Nice work! You just set up your development environment and are already using the command line! This is serious stuff!
