@@ -327,13 +327,13 @@ Displays the manual for a command, showing all the options and arguments a comma
 	WHICH(1)                  BSD General Commands Manual                 WHICH(1)
 	
 	NAME
-	     which -- locate a program file in the user's path
+			 which -- locate a program file in the user's path
 	
 	SYNOPSIS
-	     which [-as] program ...
-    ...
-     
-     
+			 which [-as] program ...
+		...
+		 
+		 
 `man` uses the `less` command to display the manual contents.
 
 Man is unavailable in Git Bash on Windows. Instead use the Linux man pages online: [http://man.he.net/](http://man.he.net/)
@@ -454,3 +454,7 @@ less
 * http://www.youtube.com/watch?v=2FiQSLdnBqA
 * http://www.youtube.com/watch?v=_JWj6u8mI7k
 * http://www.youtube.com/watch?v=b0PQt4uzsDk
+
+## Cheat Sheets
+
+* LaCoupa's Gist Bash Cheatsheet: https://gist.github.com/LeCoupa/122b12050f5fb267e75f
