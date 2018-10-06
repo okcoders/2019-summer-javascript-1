@@ -17,5 +17,5 @@ This class is intended as an introduction to programming using the JavaScript pr
 
 ## Additional Stuff
 
-Slack Channel: okcokcoders.slack.com
-Mozilla Developers Network HTML Documentation: https://developer.mozilla.org/en-US/docs/Web/HTML
+* Slack Channel: okcokcoders.slack.com
+* Mozilla Developers Network HTML Documentation: https://developer.mozilla.org/en-US/docs/Web/HTML
