@@ -63,6 +63,8 @@ cal
 top
 grep
 less
+chmod
+date
 
 ## Video Tutorials
 

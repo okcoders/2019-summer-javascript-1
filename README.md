@@ -15,3 +15,7 @@ This class is intended as an introduction to programming using the JavaScript pr
 * node.js: [node](https://nodejs.org/en/)
 * Git: [github](http://rogerdudler.github.io/git-guide/)
 
+## Additional Stuff
+
+Slack Channel: okcokcoders.slack.com
+Mozilla Developers Network HTML Documentation: https://developer.mozilla.org/en-US/docs/Web/HTML
