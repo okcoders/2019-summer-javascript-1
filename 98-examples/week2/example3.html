@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>My JavaScript Website</title>
+    </head>
+    <body>
+        <h2 id="pageTitle">This is my Title</h2>
+        <input type="text" id="one">
+        <button onclick="myMessage()" id="doSomething">Click Me!</button>
+        <ul id="msg">
+            <li>This is my message.</li>
+        </ul>
+    </body>
+    <script>
+        var color = "crimson";
+        document.getElementById("one").focus();
+        function myMessage(){
+            var one = document.getElementById("one");
+            var msg = document.getElementById("msg");
+
+            var newListItem = one.value;
+            one.value = "";
+
+            // console.log(newListItem);
+            
+            var curList = msg.innerHTML;
+            msg.innerHTML = curList + '<li style="background:' + color +'">' + newListItem + "</li>";
+            if(color === "crimson"){
+                document.title = "NOOOOOO";
+                color = "orange";
+            } else {
+                document.title = "That is better"
+                color = "crimson";
+            }
+            // msg.style="background: " + color;
+            one.focus();
+        }
+    </script>
+</html>

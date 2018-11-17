@@ -11,7 +11,7 @@ Declaring a function, often called *defining* a function, sets aside a block of 
 
 	> function foo() {
 	... console.log("called my function")
-        ... }
+				... }
 	undefined
 	>
 
@@ -61,7 +61,7 @@ Calling a function executes its block of code. Control of the program jumps to t
 Let's see a more complex example that is too large for the REPL. Quit node with control-C `^C` and create a new empty file *test.js*. add the following code:
 
 	function foo() {
-          console.log("calling foo")
+					console.log("calling foo")
 	}
 
 	console.log("foo has been defined but not called")

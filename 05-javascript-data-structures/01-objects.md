@@ -323,11 +323,11 @@ And the `split()` function splits a string on a separator, such as a space, and 
 	undefined
 	> words.split(' ')
 	[ 'Here',
-	  'are',
-	  'a',
-	  'bunch',
-	  'of',
-	  'words' ]
+		'are',
+		'a',
+		'bunch',
+		'of',
+		'words' ]
 
 We'll learn about arrays in the next chapter.
 
