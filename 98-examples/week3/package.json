@@ -21,6 +21,6 @@
   "homepage": "https://github.com/brockers/okcoders-2018-fall-javascript-week3#readme",
   "dependencies": {
     "commander": "^2.19.0",
-    "lodash": "^4.17.11"
+    "lodash": ">=4.17.13"
   }
 }
